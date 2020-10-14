@@ -43,7 +43,7 @@ export default {
     const images = requestImages.map(image => ({
       path: image.filename
     }))
-
+    
     const data = {
       name,
       latitude,
